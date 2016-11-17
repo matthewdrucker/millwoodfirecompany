@@ -1,0 +1,87 @@
+body{
+	font-family: "Lato", Helvetica, san-serif;
+	font-size: 14px;
+	background-color: #222222;
+}
+
+.header{ position: center; }
+
+h1{
+	font-family: "Lora", Geneva, serif;
+	font-size: 22px;
+	color: rgb(211,211,211);
+	text-align: center;
+}
+
+h2{
+	font-family: "Raleway", Georgia, san-serif;
+	font-size: 18px;
+	color: rgb(211.211.211);
+	text-align: center;
+}
+
+h3{
+	font-family: "Roboto", Geneva, serif;
+	font-size: 16px;
+	color: rgb(255,0,0);
+	font-weight: bold;
+	text-align: center;
+}
+
+.content{
+	color: red;
+}
+
+.container{
+	text-align: center;
+	color: yellow;
+}
+
+.content{
+	font-size: 15px;
+}
+
+.nav{
+	background-color: red;
+	color: white;
+	width: 183px;
+}
+
+ul li{
+	text-decoration: none;
+	border: solid 1.5px white;
+	border-bottom: none;
+	font-weight: bold:
+}
+
+.contact, .leaders{
+	color: #ffffff;
+	text-align: center;
+	margin-left: 475px;
+	padding: 15px;
+	width: 50%;
+}
+
+.footer{
+	color: #ffffff;
+	background-color: #d84512;
+	text-align: center;
+	border-top: dashed 2.5px yellow;
+}
+
+/*hover grow for images*/
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
